@@ -334,7 +334,7 @@
     <script>let stock = {{ $in_stock }}, limitNum = {{$buy_limit_num}};</script>
 @endsection
 @section('js')
-    <script src="https://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://static.geetest.com/static/tools/gt.js"></script>
     <link rel="stylesheet" href="/assets/luna/js/viewerjs/viewer.min.css">
     <script src="/assets/luna/js/viewerjs/viewer.min.js"></script>
