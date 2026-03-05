@@ -80,12 +80,18 @@
                                 </tr>
                             @endif
                             <tr>
+                                <td style="text-align: right">{{ __('dujiaoka.payment_fee') }}：</td>
+                                <td>
+                                    <span
+                                        class="small-tips tips-green noML">{{ $pay['pay_fee'] }}%</span>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td style="text-align: right">{{ __('order.fields.actual_price') }}：</td>
                                 <td>
                                     <span
                                         class="small-tips tips-green noML">{{ __('dujiaoka.money_symbol') }}{{ $actual_price }}</span>
                                 </td>
-
                             </tr>
                             <tr>
                                 <td style="text-align: right">{{ __('dujiaoka.email') }}：</td>
@@ -143,5 +149,3 @@
     </div>
     </body>
 @endsection
-
-
